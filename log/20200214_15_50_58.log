@@ -1,0 +1,67 @@
+[2020-02-14 15:50:58,070] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_submit_flow
+[2020-02-14 15:50:58,070] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_assgin_flow
+[2020-02-14 15:50:58,071] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_td_plow
+[2020-02-14 15:50:58,071] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_admin_flow
+[2020-02-14 15:50:58,072] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_tdcomfirm_flow
+[2020-02-14 15:50:58,072] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_intticket_flow
+[2020-02-14 15:50:58,073] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-14 15:50:58,073] - log.py[line:34] - DEBUG: 测试用例开始执行:test_submit_flow
+[2020-02-14 15:51:06,638] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-14 15:51:06,639] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-02-14 15:51:06,675] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:06,684] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:07,276] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:51:07,277] - log.py[line:32] - INFO: send keys to element: #usernameInput value: su1
+[2020-02-14 15:51:07,277] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-02-14 15:51:07,309] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:07,315] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:07,873] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:51:07,875] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-02-14 15:51:07,877] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-02-14 15:51:07,948] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:07,954] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:08,456] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:51:08,509] - log.py[line:32] - INFO: click element: #submitButton
+[2020-02-14 15:51:08,509] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-14 15:51:10,885] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:10,893] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:10,914] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-14 15:51:10,914] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='填写单据'])
+[2020-02-14 15:51:10,943] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:10,948] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:11,449] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:51:12,349] - log.py[line:32] - INFO: click element: 填写单据
+[2020-02-14 15:51:12,349] - log.py[line:34] - DEBUG: find elements:(css selector, #formTree)
+[2020-02-14 15:51:12,381] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:12,385] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:12,408] - log.py[line:32] - INFO: switch to frame: #formTree
+[2020-02-14 15:51:12,409] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='201-差旅申请单-行程明细合并'])
+[2020-02-14 15:51:12,436] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:12,443] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:12,944] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:51:16,036] - log.py[line:32] - INFO: click element: 201-差旅申请单-行程明细合并
+[2020-02-14 15:51:16,063] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-14 15:51:16,064] - log.py[line:34] - DEBUG: find elements:(css selector, #formContent)
+[2020-02-14 15:51:16,100] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:16,113] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:16,133] - log.py[line:32] - INFO: switch to frame: #formContent
+[2020-02-14 15:51:16,134] - log.py[line:34] - DEBUG: find elements:(css selector, #addtravelbuttonid)
+[2020-02-14 15:51:16,181] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:16,188] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:51:16,689] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:51:17,271] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-14 15:51:17,271] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-14 15:51:17,272] - log.py[line:32] - INFO: click element: #addtravelbuttonid
+[2020-02-14 15:51:19,273] - log.py[line:32] - INFO: wait 2.000000 seconds
+[2020-02-14 15:51:19,296] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-14 15:51:19,299] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-14 15:51:19,300] - log.py[line:34] - DEBUG: find elements:(css selector, #jd_iframe)
+[2020-02-14 15:51:19,327] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:51:19,344] - log.py[line:32] - INFO: switch to frame: #jd_iframe
+[2020-02-14 15:51:19,344] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='出发地'])
+[2020-02-14 15:51:44,242] - log.py[line:38] - ERROR: find elements:(xpath, //*[text()='出发地']) error, info: Message: 
+.

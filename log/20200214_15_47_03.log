@@ -1,0 +1,62 @@
+[2020-02-14 15:47:17,026] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-14 15:47:17,827] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:47:18,435] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:47:18,975] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:47:20,870] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:47:22,295] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:47:26,397] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:47:29,687] - log.py[line:32] - INFO: wait 2.000000 seconds
+[2020-02-14 15:48:00,681] - log.py[line:32] - INFO: capture page images: D:\PycharmProjects\mynewtest\report\screenshot_20200214\screen_shot_154800.png
+[2020-02-14 15:48:04,757] - log.py[line:32] - INFO: quit browser
+[2020-02-14 15:48:13,450] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-14 15:48:14,091] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:14,697] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:15,233] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:16,917] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:17,473] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:19,069] - log.py[line:32] - INFO: capture page images: D:\PycharmProjects\mynewtest\report\screenshot_20200214\screen_shot_154818.png
+[2020-02-14 15:48:23,136] - log.py[line:32] - INFO: quit browser
+[2020-02-14 15:48:31,761] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-14 15:48:32,396] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:32,995] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:33,532] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:35,484] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:36,058] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:36,825] - log.py[line:32] - INFO: capture page images: D:\PycharmProjects\mynewtest\report\screenshot_20200214\screen_shot_154836.png
+[2020-02-14 15:48:40,892] - log.py[line:32] - INFO: quit browser
+[2020-02-14 15:48:49,480] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-14 15:48:57,276] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:57,916] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:58,451] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:48:59,495] - log.py[line:32] - INFO: wait 1.000000 seconds
+[2020-02-14 15:49:00,034] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:00,632] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:02,687] - log.py[line:32] - INFO: wait 2.000000 seconds
+[2020-02-14 15:49:03,246] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:03,756] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:04,264] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:04,772] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:05,283] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:05,791] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:06,302] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:06,813] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:07,134] - log.py[line:32] - INFO: capture page images: D:\PycharmProjects\mynewtest\report\screenshot_20200214\screen_shot_154906.png
+[2020-02-14 15:49:11,201] - log.py[line:32] - INFO: quit browser
+[2020-02-14 15:49:19,820] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-14 15:49:20,451] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:21,057] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:21,592] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:23,295] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:23,860] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:24,578] - log.py[line:32] - INFO: capture page images: D:\PycharmProjects\mynewtest\report\screenshot_20200214\screen_shot_154924.png
+[2020-02-14 15:49:28,666] - log.py[line:32] - INFO: quit browser
+[2020-02-14 15:49:37,845] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-14 15:49:43,203] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:43,839] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:44,373] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:45,480] - log.py[line:32] - INFO: wait 1.000000 seconds
+[2020-02-14 15:49:46,004] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:46,560] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-14 15:49:54,865] - log.py[line:32] - INFO: wait 8.000000 seconds
+[2020-02-14 15:49:55,178] - log.py[line:32] - INFO: capture page images: D:\PycharmProjects\mynewtest\report\screenshot_20200214\screen_shot_154954.png
+[2020-02-14 15:49:59,241] - log.py[line:32] - INFO: quit browser

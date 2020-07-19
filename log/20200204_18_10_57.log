@@ -1,0 +1,341 @@
+[2020-02-04 18:10:58,061] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-04 18:10:58,062] - log.py[line:34] - DEBUG: 测试用例开始执行:test_submit_flow
+[2020-02-04 18:11:09,576] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-04 18:11:09,577] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-02-04 18:11:09,611] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:09,619] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:10,193] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:10,198] - log.py[line:32] - INFO: send keys to element: #usernameInput value: su1
+[2020-02-04 18:11:10,199] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-02-04 18:11:10,233] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:10,249] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:10,811] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:10,811] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-02-04 18:11:10,812] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-02-04 18:11:10,841] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:10,847] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:11,347] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:11,389] - log.py[line:32] - INFO: click element: #submitButton
+[2020-02-04 18:11:11,390] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-04 18:11:12,625] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:12,629] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:12,661] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-04 18:11:12,661] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='填写单据'])
+[2020-02-04 18:11:12,686] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:12,690] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:13,192] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:14,178] - log.py[line:32] - INFO: click element: 填写单据
+[2020-02-04 18:11:14,179] - log.py[line:34] - DEBUG: find elements:(css selector, #formTree)
+[2020-02-04 18:11:14,204] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:14,214] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:14,234] - log.py[line:32] - INFO: switch to frame: #formTree
+[2020-02-04 18:11:14,234] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='201-差旅申请单-行程明细合并'])
+[2020-02-04 18:11:14,299] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:14,305] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:14,806] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:17,950] - log.py[line:32] - INFO: click element: 201-差旅申请单-行程明细合并
+[2020-02-04 18:11:17,984] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-04 18:11:17,985] - log.py[line:34] - DEBUG: find elements:(css selector, #formContent)
+[2020-02-04 18:11:18,027] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:18,033] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:18,055] - log.py[line:32] - INFO: switch to frame: #formContent
+[2020-02-04 18:11:18,056] - log.py[line:34] - DEBUG: find elements:(css selector, #addtravelbuttonid)
+[2020-02-04 18:11:18,138] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:18,150] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:18,650] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:19,259] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-04 18:11:19,260] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-04 18:11:19,261] - log.py[line:32] - INFO: click element: #addtravelbuttonid
+[2020-02-04 18:11:21,261] - log.py[line:32] - INFO: wait 2.000000 seconds
+[2020-02-04 18:11:21,265] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-04 18:11:21,268] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-04 18:11:21,268] - log.py[line:34] - DEBUG: find elements:(css selector, #jd_iframe)
+[2020-02-04 18:11:21,294] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:21,311] - log.py[line:32] - INFO: switch to frame: #jd_iframe
+[2020-02-04 18:11:21,311] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='出发地'])
+[2020-02-04 18:11:23,907] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:23,916] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:24,417] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:24,571] - log.py[line:32] - INFO: click element: 出发地
+[2020-02-04 18:11:24,572] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='上海'])
+[2020-02-04 18:11:24,976] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:24,982] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:25,483] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:25,543] - log.py[line:32] - INFO: click element: 上海
+[2020-02-04 18:11:25,543] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='目的地'])
+[2020-02-04 18:11:25,583] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:25,589] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:26,090] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:26,169] - log.py[line:32] - INFO: click element: 目的地
+[2020-02-04 18:11:26,169] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='非中国大陆(国际/港澳台)'])
+[2020-02-04 18:11:26,215] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:26,220] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:26,722] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:26,831] - log.py[line:32] - INFO: click element: 非中国大陆(国际/港澳台)
+[2020-02-04 18:11:26,831] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='香港'])
+[2020-02-04 18:11:26,882] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:26,888] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:27,389] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:27,501] - log.py[line:32] - INFO: click element: 香港
+[2020-02-04 18:11:27,502] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='出发日期'])
+[2020-02-04 18:11:27,542] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:27,549] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,049] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:28,144] - log.py[line:32] - INFO: click element: 出发日期
+[2020-02-04 18:11:28,159] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div)
+[2020-02-04 18:11:28,191] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/div)
+[2020-02-04 18:11:28,227] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,233] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,250] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span)
+[2020-02-04 18:11:28,284] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[1])
+[2020-02-04 18:11:28,322] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,328] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,349] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[2])
+[2020-02-04 18:11:28,394] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,401] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,418] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[3])
+[2020-02-04 18:11:28,453] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,458] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,473] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[4])
+[2020-02-04 18:11:28,508] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,513] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,528] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[5])
+[2020-02-04 18:11:28,564] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,571] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,588] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[6])
+[2020-02-04 18:11:28,624] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,629] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,642] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[7])
+[2020-02-04 18:11:28,676] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,681] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,695] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[8])
+[2020-02-04 18:11:28,725] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,730] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,746] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[9])
+[2020-02-04 18:11:28,778] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,783] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,797] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[10])
+[2020-02-04 18:11:28,855] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,860] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,874] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[11])
+[2020-02-04 18:11:28,903] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,907] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,920] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[12])
+[2020-02-04 18:11:28,952] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:28,958] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:28,972] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[13])
+[2020-02-04 18:11:29,003] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:29,008] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:29,022] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[14])
+[2020-02-04 18:11:29,051] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:29,055] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:29,069] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="container"]/div/div[2]/div[1]/div[4]/div/div/div[2]/div/div[2]/div[1]/span[15])
+[2020-02-04 18:11:29,106] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:29,111] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:29,230] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='去预订'])
+[2020-02-04 18:11:29,265] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:29,269] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:29,770] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:29,799] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-04 18:11:29,800] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-04 18:11:29,800] - log.py[line:32] - INFO: click element: 去预订
+[2020-02-04 18:11:29,801] - log.py[line:32] - INFO: wait (xpath, //*[text()='正在加载中...']) begin.
+[2020-02-04 18:11:31,017] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:31,530] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:32,042] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:32,552] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:33,064] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:33,575] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:34,085] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:34,605] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:34,605] - log.py[line:32] - INFO: wait (xpath, //*[text()='正在加载中...'], 4.000000) timeout.
+[2020-02-04 18:11:34,606] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[1]/div/div[2]/div/div[1]/div[2]/article/div/ul/ul/li[1])
+[2020-02-04 18:11:38,584] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:38,597] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:39,599] - log.py[line:32] - INFO: wait 1.000000 seconds
+[2020-02-04 18:11:39,628] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-04 18:11:39,629] - log.py[line:32] - INFO: click element: /html/body/div[1]/div/div[2]/div/div[1]/div[2]/article/div/ul/ul/li[1]
+[2020-02-04 18:11:39,631] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='预订'])
+[2020-02-04 18:11:39,913] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:39,918] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:40,420] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:40,483] - log.py[line:32] - INFO: click element: 预订
+[2020-02-04 18:11:40,484] - log.py[line:32] - INFO: wait (xpath, //*[text()='正在获取最低价']) begin.
+[2020-02-04 18:11:41,249] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:41,762] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:42,282] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:42,794] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:43,305] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:43,827] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:44,339] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:44,858] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:44,859] - log.py[line:32] - INFO: wait (xpath, //*[text()='正在获取最低价'], 4.000000) timeout.
+[2020-02-04 18:11:47,361] - log.py[line:32] - INFO: wait 2.500000 seconds
+[2020-02-04 18:11:47,362] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='提交'])
+[2020-02-04 18:11:47,429] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:47,435] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:47,936] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:48,076] - log.py[line:32] - INFO: click element: 提交
+[2020-02-04 18:11:48,576] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:48,577] - log.py[line:32] - INFO: wait (xpath, //*[text()='加载中...']) begin.
+[2020-02-04 18:11:51,145] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:51,656] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:52,177] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:52,708] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:53,221] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:53,750] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:54,265] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:54,783] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:54,784] - log.py[line:32] - INFO: wait (xpath, //*[text()='加载中...'], 4.000000) timeout.
+[2020-02-04 18:11:54,785] - log.py[line:34] - DEBUG: find elements:(css selector, #container > div > div.nav-btmbar-container > div.right)
+[2020-02-04 18:11:54,836] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:54,845] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:55,347] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:55,433] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-04 18:11:55,434] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-04 18:11:55,434] - log.py[line:32] - INFO: click element: #container > div > div.nav-btmbar-container > div.right
+[2020-02-04 18:11:56,435] - log.py[line:32] - INFO: wait 1.000000 seconds
+[2020-02-04 18:11:56,435] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-04 18:11:56,474] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:56,485] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:56,509] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-04 18:11:56,510] - log.py[line:34] - DEBUG: find elements:(css selector, #formContent)
+[2020-02-04 18:11:56,569] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:56,573] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:56,589] - log.py[line:32] - INFO: switch to frame: #formContent
+[2020-02-04 18:11:56,589] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[5]/div[1]/div/table/tbody/tr[10]/td[10]/input[1])
+[2020-02-04 18:11:56,616] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:56,622] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:57,123] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:57,221] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-04 18:11:57,222] - log.py[line:32] - INFO: click error Message: unknown error: Element <input type="text" style="border: 2px solid red;" itemvarname="DimAccount_label" itemdatasource="+@2(1000000000000002);:DimAccount:DimAccount" areatype="scroll_billdetail_b" itemdisplaytype="2" itemdatatype="undefined" itembilltype="2" itemid="1000000000264714" dimensionmemberformula="true" class="jSheetbiankuang styleCenter" eventtype="undefined" eventname="undefined" autoload="true" fuzzyquery="true" showname="true" showcode="true" onpaste="return false;" onmouseover="selectCompMouseover(this);" onmouseout="selectCompMouseout(this);" onclick="blur();pop(this)" title="" datatype="true" itemtext="科目" readonly=""> is not clickable at point (767, 517). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.286575; cursor: wait; position: fixed;" title=""></div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-04 18:11:57,222] - log.py[line:32] - INFO: click element: /html/body/div[5]/div[1]/div/table/tbody/tr[10]/td[10]/input[1]
+[2020-02-04 18:11:57,223] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[5]/div[4]/table/tbody/tr[2]/td/div/div/div/div/ul/div/li[2]/div/a/span)
+[2020-02-04 18:11:57,562] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:57,568] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:58,069] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:58,315] - log.py[line:32] - INFO: click element: /html/body/div[5]/div[4]/table/tbody/tr[2]/td/div/div/div/div/ul/div/li[2]/div/a/span
+[2020-02-04 18:11:58,316] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[5]/div[1]/div/table/tbody/tr[11]/td[1]/img[2])
+[2020-02-04 18:11:58,351] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:58,360] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:58,862] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:59,069] - log.py[line:32] - INFO: click element: /html/body/div[5]/div[1]/div/table/tbody/tr[11]/td[1]/img[2]
+[2020-02-04 18:11:59,070] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[5]/div[1]/div/table/tbody/tr[2]/td[15])
+[2020-02-04 18:11:59,100] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:59,106] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:59,123] - log.py[line:34] - DEBUG: find elements:(xpath, //*[@id="flow_submit"])
+[2020-02-04 18:11:59,157] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:11:59,165] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:11:59,666] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:11:59,947] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-04 18:11:59,947] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-04 18:11:59,948] - log.py[line:32] - INFO: click element: //*[@id="flow_submit"]
+[2020-02-04 18:11:59,951] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-04 18:11:59,955] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-04 18:11:59,955] - log.py[line:34] - DEBUG: find elements:(css selector, #jd_iframe)
+[2020-02-04 18:12:01,472] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:01,495] - log.py[line:32] - INFO: switch to frame: #jd_iframe
+[2020-02-04 18:12:01,496] - log.py[line:34] - DEBUG: find elements:(css selector, #btnSubmit)
+[2020-02-04 18:12:01,522] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:01,526] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:02,028] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:02,107] - log.py[line:32] - INFO: click element: #btnSubmit
+[2020-02-04 18:12:03,108] - log.py[line:32] - INFO: wait 1.000000 seconds
+[2020-02-04 18:12:07,175] - log.py[line:32] - INFO: quit browser
+[2020-02-04 18:12:07,176] - log.py[line:34] - DEBUG: 测试用例执行结束:test_submit_flow
+[2020-02-04 18:12:07,176] - log.py[line:36] - WARNING: ========================= END =========================
+
+[2020-02-04 18:12:07,177] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-04 18:12:07,178] - log.py[line:34] - DEBUG: 测试用例开始执行:test_assgin_flow
+[2020-02-04 18:12:15,760] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-02-04 18:12:15,761] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-02-04 18:12:15,794] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:15,803] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:16,387] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:16,387] - log.py[line:32] - INFO: send keys to element: #usernameInput value: su1
+[2020-02-04 18:12:16,388] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-02-04 18:12:16,420] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:16,429] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:16,986] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:16,987] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-02-04 18:12:16,988] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-02-04 18:12:17,047] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:17,054] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:17,556] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:17,635] - log.py[line:32] - INFO: click element: #submitButton
+[2020-02-04 18:12:17,636] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='共享中心'])
+[2020-02-04 18:12:18,765] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:18,769] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:19,269] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:19,312] - log.py[line:32] - INFO: click element: 共享中心
+[2020-02-04 18:12:19,313] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='TD任务管理'])
+[2020-02-04 18:12:19,836] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:20,714] - log.py[line:32] - INFO: click element: TD任务管理
+[2020-02-04 18:12:20,714] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-04 18:12:20,754] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:20,763] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:20,789] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-04 18:12:20,790] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[3]/div[1]/iframe)
+[2020-02-04 18:12:20,839] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:20,864] - log.py[line:32] - INFO: switch to frame: /html/body/div[3]/div[1]/iframe
+[2020-02-04 18:12:20,865] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/table[1]/tbody/tr[1]/td[2]/input)
+[2020-02-04 18:12:20,897] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:20,902] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:20,963] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('value', 'CLSQDXCMX06-su1-200204-0011');
+[2020-02-04 18:12:21,463] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:21,463] - log.py[line:32] - INFO: send keys to element by js: /html/body/table[1]/tbody/tr[1]/td[2]/input value: CLSQDXCMX06-su1-200204-0011
+[2020-02-04 18:12:22,964] - log.py[line:32] - INFO: wait 1.500000 seconds
+[2020-02-04 18:12:22,964] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/table[1]/tbody/tr[3]/td/input[1])
+[2020-02-04 18:12:22,994] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:23,001] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:23,502] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:23,559] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-04 18:12:23,560] - log.py[line:32] - INFO: click error Message: unknown error: Element <input type="button" class="button_yellow w80" style="border: 2px solid red;" value="查询" onclick="queryCommon.search(sharetasksDispatch);"> is not clickable at point (1683, 65). Other element would receive the click: <div class="blockUI blockOverlay" style="z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.4; cursor: wait; position: fixed;"></div>
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-04 18:12:23,560] - log.py[line:32] - INFO: click element: /html/body/table[1]/tbody/tr[3]/td/input[1]
+[2020-02-04 18:12:25,062] - log.py[line:32] - INFO: wait 1.500000 seconds
+[2020-02-04 18:12:25,062] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/table[2]/tbody/tr/td/div/div[1]/div[2]/table/tbody/tr/td[1]/input[1])
+[2020-02-04 18:12:25,587] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:25,672] - log.py[line:32] - INFO: click element: /html/body/table[2]/tbody/tr/td/div/div[1]/div[2]/table/tbody/tr/td[1]/input[1]
+[2020-02-04 18:12:27,173] - log.py[line:32] - INFO: wait 1.500000 seconds
+[2020-02-04 18:12:27,173] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/table[1]/tbody/tr[3]/td/input[3])
+[2020-02-04 18:12:27,199] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:27,204] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:27,705] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:27,899] - log.py[line:32] - INFO: click element: /html/body/table[1]/tbody/tr[3]/td/input[3]
+[2020-02-04 18:12:29,900] - log.py[line:32] - INFO: wait 2.000000 seconds
+[2020-02-04 18:12:29,905] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-04 18:12:29,909] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-04 18:12:29,910] - log.py[line:34] - DEBUG: find elements:(css selector, #jd_iframe)
+[2020-02-04 18:12:29,949] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:29,976] - log.py[line:32] - INFO: switch to frame: #jd_iframe
+[2020-02-04 18:12:29,976] - log.py[line:34] - DEBUG: find elements:(css selector, #closeBtn)
+[2020-02-04 18:12:30,012] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:30,018] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-04 18:12:30,519] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-02-04 18:12:30,582] - log.py[line:32] - INFO: click element: #closeBtn
+[2020-02-04 18:12:30,583] - log.py[line:34] - DEBUG: find elements:(css selector, #jd_iframe)
+[2020-02-04 18:12:34,331] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-04 18:12:34,351] - log.py[line:32] - INFO: switch to frame: #jd_iframe
+[2020-02-04 18:12:34,352] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[3]/table/tbody/tr[2]/td/ul/div/div/div/ul/li/ul/li/ul/li[1]/div/a/span)
+[2020-02-04 18:12:40,768] - log.py[line:38] - ERROR: find elements:(xpath, /html/body/div[3]/table/tbody/tr[2]/td/ul/div/div/div/ul/li/ul/li/ul/li[1]/div/a/span) error, info: Message: 
+.

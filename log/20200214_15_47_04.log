@@ -1,0 +1,230 @@
+[2020-02-14 15:47:04,230] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_submit_flow
+[2020-02-14 15:47:04,232] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_assgin_flow
+[2020-02-14 15:47:04,233] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_td_plow
+[2020-02-14 15:47:04,233] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_admin_flow
+[2020-02-14 15:47:04,234] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_tdcomfirm_flow
+[2020-02-14 15:47:04,234] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_intticket_flow
+[2020-02-14 15:47:04,245] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-14 15:47:04,246] - log.py[line:34] - DEBUG: 测试用例开始执行:test_submit_flow
+[2020-02-14 15:47:17,027] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-02-14 15:47:17,066] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:17,073] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:17,828] - log.py[line:32] - INFO: send keys to element: #usernameInput value: su1
+[2020-02-14 15:47:17,829] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-02-14 15:47:17,867] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:17,876] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:18,436] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-02-14 15:47:18,437] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-02-14 15:47:18,468] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:18,474] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:19,053] - log.py[line:32] - INFO: click element: #submitButton
+[2020-02-14 15:47:19,054] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-14 15:47:20,286] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:20,299] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:20,337] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-14 15:47:20,338] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='填写单据'])
+[2020-02-14 15:47:20,365] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:20,369] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:21,681] - log.py[line:32] - INFO: click element: 填写单据
+[2020-02-14 15:47:21,681] - log.py[line:34] - DEBUG: find elements:(css selector, #formTree)
+[2020-02-14 15:47:21,727] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:21,732] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:21,757] - log.py[line:32] - INFO: switch to frame: #formTree
+[2020-02-14 15:47:21,757] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='201-差旅申请单-行程明细合并'])
+[2020-02-14 15:47:21,790] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:21,794] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:25,739] - log.py[line:32] - INFO: click element: 201-差旅申请单-行程明细合并
+[2020-02-14 15:47:25,766] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-14 15:47:25,766] - log.py[line:34] - DEBUG: find elements:(css selector, #formContent)
+[2020-02-14 15:47:25,806] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:25,821] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:25,847] - log.py[line:32] - INFO: switch to frame: #formContent
+[2020-02-14 15:47:25,847] - log.py[line:34] - DEBUG: find elements:(css selector, #addtravelbuttonid)
+[2020-02-14 15:47:25,892] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:25,895] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:47:27,685] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-14 15:47:27,685] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-14 15:47:27,686] - log.py[line:32] - INFO: click element: #addtravelbuttonid
+[2020-02-14 15:47:29,700] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-14 15:47:29,706] - log.py[line:32] - INFO: switch to parent frame.
+[2020-02-14 15:47:29,707] - log.py[line:34] - DEBUG: find elements:(css selector, #jd_iframe)
+[2020-02-14 15:47:29,740] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:47:29,760] - log.py[line:32] - INFO: switch to frame: #jd_iframe
+[2020-02-14 15:47:29,760] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='出发地'])
+[2020-02-14 15:48:00,339] - log.py[line:38] - ERROR: find elements:(xpath, //*[text()='出发地']) error, info: Message: 
+.
+[2020-02-14 15:48:00,683] - log.py[line:38] - ERROR: Message: <module 'common.flowlist' from 'D:\\PycharmProjects\\mynewtest\\common\\flowlist.py'>
+[2020-02-14 15:48:00,683] - log.py[line:38] - ERROR: find element error!
+[2020-02-14 15:48:04,758] - log.py[line:34] - DEBUG: 测试用例执行结束:test_submit_flow
+[2020-02-14 15:48:04,758] - log.py[line:36] - WARNING: ========================= END =========================
+
+[2020-02-14 15:48:04,790] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-14 15:48:04,791] - log.py[line:34] - DEBUG: 测试用例开始执行:test_assgin_flow
+[2020-02-14 15:48:13,450] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-02-14 15:48:13,485] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:13,496] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:14,091] - log.py[line:32] - INFO: send keys to element: #usernameInput value: su1
+[2020-02-14 15:48:14,092] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-02-14 15:48:14,126] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:14,142] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:14,697] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-02-14 15:48:14,698] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-02-14 15:48:14,725] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:14,731] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:15,282] - log.py[line:32] - INFO: click element: #submitButton
+[2020-02-14 15:48:15,282] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='共享中心'])
+[2020-02-14 15:48:16,411] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:16,416] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:16,949] - log.py[line:32] - INFO: click element: 共享中心
+[2020-02-14 15:48:16,950] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='TD任务管理'])
+[2020-02-14 15:48:18,615] - log.py[line:32] - INFO: click element: TD任务管理
+[2020-02-14 15:48:18,616] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-14 15:48:18,650] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:18,662] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:18,687] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-14 15:48:18,688] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div[3]/div[1]/iframe)
+[2020-02-14 15:48:18,730] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:18,750] - log.py[line:32] - INFO: switch to frame: /html/body/div[3]/div[1]/iframe
+[2020-02-14 15:48:19,069] - log.py[line:38] - ERROR: Message: <module 'common.flowlist' from 'D:\\PycharmProjects\\mynewtest\\common\\flowlist.py'>
+[2020-02-14 15:48:19,070] - log.py[line:38] - ERROR: 'number'
+[2020-02-14 15:48:23,137] - log.py[line:34] - DEBUG: 测试用例执行结束:test_assgin_flow
+[2020-02-14 15:48:23,138] - log.py[line:36] - WARNING: ========================= END =========================
+
+[2020-02-14 15:48:23,149] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-14 15:48:23,150] - log.py[line:34] - DEBUG: 测试用例开始执行:test_td_plow
+[2020-02-14 15:48:31,762] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-02-14 15:48:31,803] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:31,812] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:32,396] - log.py[line:32] - INFO: send keys to element: #usernameInput value: y2
+[2020-02-14 15:48:32,397] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-02-14 15:48:32,431] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:32,437] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:32,996] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-02-14 15:48:32,996] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-02-14 15:48:33,024] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:33,031] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:33,580] - log.py[line:32] - INFO: click element: #submitButton
+[2020-02-14 15:48:33,581] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='商旅商城'])
+[2020-02-14 15:48:34,978] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:34,983] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:35,519] - log.py[line:32] - INFO: click element: 商旅商城
+[2020-02-14 15:48:35,520] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='我的TD台-国际'])
+[2020-02-14 15:48:35,550] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:35,556] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:36,453] - log.py[line:32] - INFO: click element: 我的TD台-国际
+[2020-02-14 15:48:36,454] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-14 15:48:36,480] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:36,484] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:36,505] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-14 15:48:36,826] - log.py[line:38] - ERROR: Message: <module 'common.flowlist' from 'D:\\PycharmProjects\\mynewtest\\common\\flowlist.py'>
+[2020-02-14 15:48:36,826] - log.py[line:38] - ERROR: 'number'
+[2020-02-14 15:48:40,893] - log.py[line:34] - DEBUG: 测试用例执行结束:test_td_plow
+[2020-02-14 15:48:40,894] - log.py[line:36] - WARNING: ========================= END =========================
+
+[2020-02-14 15:48:40,896] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-14 15:48:40,897] - log.py[line:34] - DEBUG: 测试用例开始执行:test_admin_flow
+[2020-02-14 15:48:49,481] - log.py[line:32] - INFO: get to page http://test.td.51ykb.com
+[2020-02-14 15:48:56,614] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div/div/form/div/div[2]/div/div/input)
+[2020-02-14 15:48:56,662] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:56,669] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:57,276] - log.py[line:32] - INFO: send keys to element: /html/body/div/div/form/div/div[2]/div/div/input value: guangda
+[2020-02-14 15:48:57,277] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div/div/form/div/div[3]/div/div/input)
+[2020-02-14 15:48:57,308] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:57,316] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:57,916] - log.py[line:32] - INFO: send keys to element: /html/body/div/div/form/div/div[3]/div/div/input value: 123456
+[2020-02-14 15:48:57,917] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='登录'])
+[2020-02-14 15:48:57,944] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:57,950] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:48:58,495] - log.py[line:32] - INFO: click element: 登录
+[2020-02-14 15:48:59,495] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='行程管理'])
+[2020-02-14 15:48:59,526] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:48:59,533] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:00,087] - log.py[line:32] - INFO: click element: 行程管理
+[2020-02-14 15:49:00,088] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div/div/div[1]/div[1]/div/ul/div[1]/li/ul/a/li)
+[2020-02-14 15:49:00,119] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:00,131] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:00,685] - log.py[line:32] - INFO: click element: /html/body/div/div/div[1]/div[1]/div/ul/div[1]/li/ul/a/li
+[2020-02-14 15:49:02,688] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div/div/div[2]/section/div/iframe)
+[2020-02-14 15:49:02,715] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:02,733] - log.py[line:32] - INFO: switch to frame: /html/body/div/div/div[2]/section/div/iframe
+[2020-02-14 15:49:02,734] - log.py[line:32] - INFO: wait (xpath, //*[text()='处理中...']) begin.
+[2020-02-14 15:49:06,814] - log.py[line:32] - INFO: wait (xpath, //*[text()='处理中...'], 4.000000) timeout.
+[2020-02-14 15:49:07,135] - log.py[line:38] - ERROR: Message: <module 'common.flowlist' from 'D:\\PycharmProjects\\mynewtest\\common\\flowlist.py'>
+[2020-02-14 15:49:07,136] - log.py[line:38] - ERROR: 'number'
+[2020-02-14 15:49:11,202] - log.py[line:34] - DEBUG: 测试用例执行结束:test_admin_flow
+[2020-02-14 15:49:11,203] - log.py[line:36] - WARNING: ========================= END =========================
+
+[2020-02-14 15:49:11,218] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-14 15:49:11,219] - log.py[line:34] - DEBUG: 测试用例开始执行:test_tdcomfirm_flow
+[2020-02-14 15:49:19,821] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-02-14 15:49:19,864] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:19,874] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:20,451] - log.py[line:32] - INFO: send keys to element: #usernameInput value: y2
+[2020-02-14 15:49:20,452] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-02-14 15:49:20,492] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:20,500] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:21,057] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-02-14 15:49:21,058] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-02-14 15:49:21,086] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:21,092] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:21,630] - log.py[line:32] - INFO: click element: #submitButton
+[2020-02-14 15:49:21,631] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='商旅商城'])
+[2020-02-14 15:49:22,781] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:22,793] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:23,328] - log.py[line:32] - INFO: click element: 商旅商城
+[2020-02-14 15:49:23,328] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='我的TD台-国际'])
+[2020-02-14 15:49:23,353] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:23,360] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:24,213] - log.py[line:32] - INFO: click element: 我的TD台-国际
+[2020-02-14 15:49:24,213] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-02-14 15:49:24,240] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:24,245] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:24,265] - log.py[line:32] - INFO: switch to frame: #main
+[2020-02-14 15:49:24,579] - log.py[line:38] - ERROR: Message: <module 'common.flowlist' from 'D:\\PycharmProjects\\mynewtest\\common\\flowlist.py'>
+[2020-02-14 15:49:24,580] - log.py[line:38] - ERROR: 'number'
+[2020-02-14 15:49:28,668] - log.py[line:34] - DEBUG: 测试用例执行结束:test_tdcomfirm_flow
+[2020-02-14 15:49:28,670] - log.py[line:36] - WARNING: ========================= END =========================
+
+[2020-02-14 15:49:28,672] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-02-14 15:49:28,674] - log.py[line:34] - DEBUG: 测试用例开始执行:test_intticket_flow
+[2020-02-14 15:49:37,847] - log.py[line:32] - INFO: get to page http://test.td.51ykb.com
+[2020-02-14 15:49:42,546] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div/div/form/div/div[2]/div/div/input)
+[2020-02-14 15:49:42,586] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:42,597] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:43,203] - log.py[line:32] - INFO: send keys to element: /html/body/div/div/form/div/div[2]/div/div/input value: guangda
+[2020-02-14 15:49:43,204] - log.py[line:34] - DEBUG: find elements:(xpath, /html/body/div/div/form/div/div[3]/div/div/input)
+[2020-02-14 15:49:43,236] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:43,245] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:43,840] - log.py[line:32] - INFO: send keys to element: /html/body/div/div/form/div/div[3]/div/div/input value: 123456
+[2020-02-14 15:49:43,841] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='登录'])
+[2020-02-14 15:49:43,867] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-02-14 15:49:43,872] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-02-14 15:49:44,478] - log.py[line:32] - INFO: click element: 登录
+[2020-02-14 15:49:45,481] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='国际机票'])
+[2020-02-14 15:49:46,031] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-14 15:49:46,031] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-14 15:49:46,032] - log.py[line:32] - INFO: click element: 国际机票
+[2020-02-14 15:49:46,032] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='正常订单'])
+[2020-02-14 15:49:46,863] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-02-14 15:49:46,864] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-02-14 15:49:46,864] - log.py[line:32] - INFO: click element: 正常订单
+[2020-02-14 15:49:55,179] - log.py[line:38] - ERROR: Message: <module 'common.flowlist' from 'D:\\PycharmProjects\\mynewtest\\common\\flowlist.py'>
+[2020-02-14 15:49:55,179] - log.py[line:38] - ERROR: 'number'
+[2020-02-14 15:49:59,242] - log.py[line:34] - DEBUG: 测试用例执行结束:test_intticket_flow
+[2020-02-14 15:49:59,243] - log.py[line:36] - WARNING: ========================= END =========================
+

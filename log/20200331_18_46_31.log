@@ -1,0 +1,91 @@
+[2020-03-31 18:46:31,640] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_submit_flow
+[2020-03-31 18:46:31,641] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_assgin_flow
+[2020-03-31 18:46:31,642] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_td_plow
+[2020-03-31 18:46:31,642] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_admin_flow
+[2020-03-31 18:46:31,643] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_tdcomfirm_flow
+[2020-03-31 18:46:31,643] - log.py[line:34] - DEBUG: SUCCESS 装载测试用例: test_intticket_flow
+[2020-03-31 18:46:31,644] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-03-31 18:46:31,645] - log.py[line:34] - DEBUG: 测试用例开始执行:test_submit_flow
+[2020-03-31 18:46:42,701] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-03-31 18:46:42,702] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-03-31 18:46:42,733] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:42,741] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:43,326] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:46:43,327] - log.py[line:32] - INFO: send keys to element: #usernameInput value: su1
+[2020-03-31 18:46:43,329] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-03-31 18:46:43,394] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:43,410] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:43,971] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:46:43,973] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-03-31 18:46:43,974] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-03-31 18:46:44,038] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:44,046] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:44,548] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:46:44,611] - log.py[line:32] - INFO: click element: #submitButton
+[2020-03-31 18:46:44,612] - log.py[line:34] - DEBUG: find elements:(css selector, #main)
+[2020-03-31 18:46:45,696] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:45,705] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:45,731] - log.py[line:32] - INFO: switch to frame: #main
+[2020-03-31 18:46:45,731] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='填写单据'])
+[2020-03-31 18:46:45,760] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:45,764] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:46,267] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:46:48,504] - log.py[line:32] - INFO: click element: 填写单据
+[2020-03-31 18:46:48,504] - log.py[line:34] - DEBUG: find elements:(css selector, #formTree)
+[2020-03-31 18:46:48,532] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:48,546] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:48,578] - log.py[line:32] - INFO: switch to frame: #formTree
+[2020-03-31 18:46:48,578] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='201-差旅申请单-行程明细合并'])
+[2020-03-31 18:46:48,609] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:48,614] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:49,115] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:46:52,156] - log.py[line:32] - INFO: click element: 201-差旅申请单-行程明细合并
+[2020-03-31 18:46:52,189] - log.py[line:32] - INFO: switch to parent frame.
+[2020-03-31 18:46:52,189] - log.py[line:34] - DEBUG: find elements:(css selector, #formContent)
+[2020-03-31 18:46:52,221] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:52,226] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:52,252] - log.py[line:32] - INFO: switch to frame: #formContent
+[2020-03-31 18:46:52,253] - log.py[line:34] - DEBUG: find elements:(css selector, #addtravelbuttonid)
+[2020-03-31 18:46:52,301] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:52,306] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:46:52,807] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:46:53,206] - log.py[line:34] - DEBUG: execute javascript: arguments[0].click();
+[2020-03-31 18:46:53,206] - log.py[line:32] - INFO: click error Message: element not visible
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
+[2020-03-31 18:46:53,207] - log.py[line:32] - INFO: click element: #addtravelbuttonid
+[2020-03-31 18:46:55,207] - log.py[line:32] - INFO: wait 2.000000 seconds
+[2020-03-31 18:46:55,400] - log.py[line:32] - INFO: switch to parent frame.
+[2020-03-31 18:46:55,443] - log.py[line:32] - INFO: switch to parent frame.
+[2020-03-31 18:46:55,444] - log.py[line:34] - DEBUG: find elements:(css selector, #jd_iframe)
+[2020-03-31 18:46:55,471] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:46:55,488] - log.py[line:32] - INFO: switch to frame: #jd_iframe
+[2020-03-31 18:46:55,488] - log.py[line:34] - DEBUG: find elements:(xpath, //*[text()='出发地'])
+[2020-03-31 18:47:01,637] - log.py[line:38] - ERROR: find elements:(xpath, //*[text()='出发地']) error, info: Message: 
+.
+[2020-03-31 18:47:05,915] - log.py[line:32] - INFO: quit browser
+[2020-03-31 18:47:05,916] - log.py[line:34] - DEBUG: 测试用例执行结束:test_submit_flow
+[2020-03-31 18:47:05,916] - log.py[line:36] - WARNING: ========================= END =========================
+
+[2020-03-31 18:47:05,975] - log.py[line:36] - WARNING: =========================START=========================
+
+[2020-03-31 18:47:05,975] - log.py[line:34] - DEBUG: 测试用例开始执行:test_assgin_flow
+[2020-03-31 18:47:15,079] - log.py[line:32] - INFO: open the default page: http://192.168.64.12:9000/pages/login.jsp
+[2020-03-31 18:47:15,080] - log.py[line:34] - DEBUG: find elements:(css selector, #usernameInput)
+[2020-03-31 18:47:15,107] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:47:15,111] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:47:15,682] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:47:15,683] - log.py[line:32] - INFO: send keys to element: #usernameInput value: su1
+[2020-03-31 18:47:15,683] - log.py[line:34] - DEBUG: find elements:(css selector, #passwordInput)
+[2020-03-31 18:47:15,717] - log.py[line:34] - DEBUG: execute javascript: arguments[0].focus();
+[2020-03-31 18:47:15,728] - log.py[line:34] - DEBUG: execute javascript: arguments[0].setAttribute('style', 'border: 2px solid red;');
+[2020-03-31 18:47:16,288] - log.py[line:32] - INFO: wait 0.500000 seconds
+[2020-03-31 18:47:16,289] - log.py[line:32] - INFO: send keys to element: #passwordInput value: 1
+[2020-03-31 18:47:16,290] - log.py[line:34] - DEBUG: find elements:(css selector, #submitButton)
+[2020-03-31 18:47:16,817] - log.py[line:38] - ERROR: find elements:(css selector, #submitButton) error, info: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.18362 x86_64)
+.
